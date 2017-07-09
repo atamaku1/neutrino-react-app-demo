@@ -1,0 +1,26 @@
+{
+  "name": "neutrino-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "neutrino": "^6.1.4",
+    "neutrino-preset-airbnb-base": "^6.1.4",
+    "neutrino-preset-jest": "^6.1.4",
+    "neutrino-preset-react": "^6.1.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  }
+}
